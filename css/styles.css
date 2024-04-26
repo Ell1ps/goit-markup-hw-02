@@ -1,6 +1,7 @@
 :root {
   --primary-font: "Roboto", sans-serif;
   --title-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
   --primary-slate-color: #434455;
   --primary-white-color: #ffffff;
   --primary-accent-color: #03a9f4;
@@ -17,11 +18,27 @@ body {
   line-height: 1.5;
 }
 
-.title-background {
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.footer-logo {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.order-section {
   background-color: #2e2f42;
 }
 
-.title {
+.order-title {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
@@ -40,27 +57,48 @@ ul {
   list-style: none;
 }
 
-button {
+.nav-item {
+  color: #2e2f42;
+}
+
+.order-button {
   color: #ffffff;
   background-color: #4d5ae5;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  border-radius: 4px;
+  border: none;
 }
 
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
 .team-list {
   background-color: #f4f4fd;
 }
 
-.button-li {
+.button-li button {
   color: #4d5ae5;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  border: none;
+  border-radius: 4px;
 }
+
+.button-li button:hover,
+.button-li button:focus {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
 .footer-background {
   background-color: #2e2f42;
 }
 .footer-text {
   color: #f4f4fd;
+  font-size: 16px;
+  line-height: 24px;
 }
