@@ -26,12 +26,22 @@ a {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
 }
 
 .footer-logo {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.site-nav {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .order-section {
