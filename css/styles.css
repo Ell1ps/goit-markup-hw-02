@@ -80,12 +80,22 @@ ul {
   list-style: none;
 }
 
-.nav-item {
+.nav-link {
   color: #2e2f42;
 }
 
-.nav-item:visited {
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-link {
   color: #2e2f42;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
 
 .order-button {
